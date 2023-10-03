@@ -23,7 +23,7 @@ h2 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .container {
@@ -62,7 +62,7 @@ p {
   height: 50px;
   margin-bottom: 12px;
   border-radius: 6px;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .box {
@@ -79,7 +79,7 @@ p {
 }
 
 button {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: white;
   padding: 5px 20px;
   background-color: rgb(218, 80, 80);
