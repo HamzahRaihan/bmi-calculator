@@ -9,21 +9,22 @@
   <body>
     <section>
       <div class="container">
-        <h1>Check your BMI</h1>
-        <p>Enter your weight and height Below to check your BMI</p>
-        <form id="form">
-          <input type="number" id="weight" placeholder="Your Weight" />
-          <input type="number" id="height" placeholder="Your Height" />
-          <div class="button">
-            <button type="submit" id="submit-button" class="button">Calculate</button>
-          </div>
-        </form>
-        <div id="result">
-          <p>Your Weight is: <span>45kg</span></p>
-          <p>Your Height is: <span>123cm</span></p>
-          <p>Result : Your BMI is 81.30 which means you are Obesity</p>
+        <div class="picture">
+          <img src="./img/bmi.jpg" alt="" width="100" loading="lazy" />
+        </div>
+        <div class="form-container">
+          <h1>Check your BMI</h1>
+          <p>Enter your weight and height Below to check your BMI</p>
+          <form id="form">
+            <input type="number" id="weight" placeholder="Your Weight" />
+            <input type="number" id="height" placeholder="Your Height" />
+            <div class="button">
+              <button type="submit" id="submit-button" class="button">Calculate</button>
+            </div>
+          </form>
         </div>
       </div>
+      <div id="result"></div>
     </section>
     <script src="script.js"></script>
   </body>
