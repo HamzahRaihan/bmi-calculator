@@ -77,9 +77,8 @@ p {
   width: fit-content;
   padding: 20px;
   color: white;
-  border-radius: 6px;
+  border-radius: 2px;
 }
-
 button {
   color: white;
   padding: 5px 20px;
