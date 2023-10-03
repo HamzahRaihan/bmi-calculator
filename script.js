@@ -34,5 +34,7 @@ function calculate(e) {
       <p>Result : Your BMI is ${bmi} which means you are ${category}</p>
     `;
     result.innerHTML = finalResult;
+    weightInput.value = '';
+    heightInput.value = '';
   }
 }
