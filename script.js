@@ -29,10 +29,20 @@ function calculate(e) {
       category = 'Obesity';
     }
     let finalResult = `
-      <p>Your Weight is: <span>${weight}kg</span></p>
-      <p>Your Height is: <span>${height}cm</span></p>
-      <p>Result : Your BMI is ${bmi} which means you are ${category}</p>
+    <div class="box">
+      <p>Your Weight is:</p>
+      <h2>${weight}kg</h2>
+    </div>
+    <div class="box">
+      <p>Your Height is:</p>
+      <h2>${height}cm</h2>
+    </div>
+    <div class="box">
+      <p>Result :</p>
+      <h2 style="font-weight: 400;">Your BMI is <strong>${bmi}</strong> which means you are <strong>${category}</strong></h2>
+    </div>
     `;
+    result.classList.add('container');
     result.innerHTML = finalResult;
     weightInput.value = '';
     heightInput.value = '';
