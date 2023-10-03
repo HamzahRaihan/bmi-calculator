@@ -15,7 +15,7 @@ function calculate(e) {
 
   let bmi = (weight / (height / 100) ** 2).toFixed(1);
 
-  if (weightInput == '' || (isNaN(weight) && heightInput == '') || isNaN(height)) {
+  if (weightInput == '' || isNaN(weight) || heightInput == '' || isNaN(height)) {
     result.innerHTML = 'Please provide valid data';
   } else {
     let category = '';
